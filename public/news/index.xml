@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>News on JudaicaLink</title>
+    <link>http://replace-this-with-your-hugo-site.com/news/</link>
+    <description>Recent content in News on JudaicaLink</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 18 May 2016 12:52:18 +0200</lastBuildDate>
+    <atom:link href="http://replace-this-with-your-hugo-site.com/news/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>invited_Talk_Rome</title>
+      <link>http://replace-this-with-your-hugo-site.com/news/invited_Talk_Rome/</link>
+      <pubDate>Wed, 18 May 2016 12:52:18 +0200</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/news/invited_Talk_Rome/</guid>
+      <description>&lt;p&gt;Last week, Kai Eckert was invited to present JudaicaLink in Rome at the Workshop Linked Open Data &amp;amp; Jewish Cultural Heritage. Here are the slides:&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

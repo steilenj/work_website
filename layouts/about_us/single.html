@@ -1,0 +1,27 @@
+{{partial "header.html" .}}
+
+<div class="col-md-9">
+{{ .Content  }}
+</div>
+
+<div class="col-md-3">
+<h3>News:</h3>
+<div style="text-align:center">
+<a href="{{.Permalink}}">{{.Title}}</a>
+</div>
+
+<a href="/news">Read more</a><br/>.
+
+<h3>Connected to</h3>
+<div style="text-align:center">
+<a href="http://dm2e.eu/"><img src="/img/dm2e_logo.png"/></a><br/>
+<a href="http://www.judaica-europeana.eu/"><img src="/img/Judaica_Europeana_logosm-70.gif"/></a><br/>
+<a href="http://wiss.iuk.hdm-stuttgart.de/"><img src="/img/hdm-logo.gif"/></a><br/>
+<a href="http://www.jewishcultureineurope.org/"><img src="/img/Just_logo-70.gif"/></a>
+</div>
+
+
+
+</div>
+
+{{partial "footer.html" .}}

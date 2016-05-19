@@ -1,0 +1,36 @@
+{{partial "header.html" . }}
+
+<div class="col-md-7">
+        <article id="content">
+           {{ .Content }}
+        </article>
+</div>
+<div class="col-md-5">
+{{$data := .Params}}
+<div class="pageData">
+<img class="pageLogo" src="{{$data.logo}}"/>
+<table class="datatable">
+<tr><th>Name: </th><td>{{ .Title }}</td></tr>
+{{with $data.website}}<tr><th>Website: </th><td><a href="{{ . }}">{{ . }}</a></td></tr>{{end}}
+{{with $data.concepts}}<tr><th>Concepts: </th><td>{{ . }}</td></tr>{{end}}
+{{with $data.persons_whithin_Comcerpts}}<tr><th>Persons (whithin Comcerpts): </th><td>{{ . }}</td></tr>{{end}}
+{{with $data.links}}<tr><th>Links: </th><td>{{ . }}</td></tr>{{end}}
+{{with $data.examples}}<tr><th>Examples: </th><td>{{ . }}</td></tr>{{end}}
+{{with $data.bookmarklet}}<tr><th>Bookmarklet: </th><td>
+    {{range $i, $p:=. }}
+    {{if not (eq $i 0)}}<br/>{{end}}  
+       <a href="{{$p.url}}">{{$p.name}}</a>
+    {{ end }}
+</td></tr>{{end}}
+{{with $data.staff}}<tr><th>Staff: </th><td>
+    {{range $i, $p:=. }}
+    {{if not (eq $i 0)}}<br/>{{end}}  
+       <a href="{{$p.url}}">{{$p.name}}</a>
+    {{ end }}
+</td></tr>{{end}}
+</table>
+</div>
+</div>
+
+
+{{partial "footer.html" . }}

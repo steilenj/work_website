@@ -1,0 +1,15 @@
+{{ partial "header.html" . }}
+
+<div class="col-md-7">
+{{ .Content  }}
+{{$page:=.}}
+{{with .Params.author}} {{range where $page.Site.Pages "Params.id" .}}
+{{$data := .Params}}
+<p class="smallData">
+  <b>Date:</b> {{dateFormat "Mon, 02 Jan 2006" $page.Date}} 
+</p>
+{{end}}{{end}}
+</div>
+
+
+{{ partial "footer.html" . }}

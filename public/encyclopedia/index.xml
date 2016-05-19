@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Encyclopedia on JudaicaLink</title>
+    <link>http://replace-this-with-your-hugo-site.com/encyclopedia/</link>
+    <description>Recent content in Encyclopedia on JudaicaLink</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 19 May 2016 10:38:06 +0200</lastBuildDate>
+    <atom:link href="http://replace-this-with-your-hugo-site.com/encyclopedia/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>YIVO_ENCYCLOPEDIA</title>
+      <link>http://replace-this-with-your-hugo-site.com/encyclopedia/YIVO_ENCYCLOPEDIA/</link>
+      <pubDate>Thu, 19 May 2016 10:38:06 +0200</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/encyclopedia/YIVO_ENCYCLOPEDIA/</guid>
+      <description>
+
+&lt;h2 id=&#34;yivo-encyclopedia:f131778e49efad5f85f27bd726633c49&#34;&gt;YIVO ENCYCLOPEDIA&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://replace-this-with-your-hugo-site.com/img/yivo_logo_black-on-white-135x68.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The YIVO Encyclopedia of Jews in Eastern Europe, courtesy of the YIVO Institute of Jewish Research, NY.&lt;/p&gt;
+
+&lt;p&gt;The only resource of its kind, this encyclopedia provides the most complete picture of the history and culture of Jews in Eastern Europe from the beginnings of their settlement in the region to the present. This website makes accurate, reliable, scholarly information about East European Jewish life accessible to everyone.&lt;/p&gt;
+
+&lt;p&gt;“The YIVO Encyclopedia is so compulsively browsable that you can disappear within its pages for hours without a trace, the equivalent of diving into the coolest, deepest of pools.” —Kenneth Turan, L.A. Times&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
